@@ -1,5 +1,7 @@
 ﻿//    https://leetcode.com/problems/integer-to-roman/
 
+using System.Text;
+
 Console.WriteLine(IntToRoman(3749));
 
 string IntToRoman(int num)
