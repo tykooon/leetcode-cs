@@ -1,4 +1,5 @@
 ﻿//      https://leetcode.com/problems/longest-common-prefix/
+//      Easy
 
 Console.WriteLine(LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
 

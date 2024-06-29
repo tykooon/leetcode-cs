@@ -1,6 +1,7 @@
 ﻿//      https://leetcode.com/problems/merge-k-sorted-lists/
+//      Hard
 
-System.Console.WriteLine("Without Test Set");
+Console.WriteLine("Without Test Set");
 
 ListNode MergeKLists(ListNode[] lists)
 {
@@ -54,16 +55,4 @@ ListNode MergeTwoOrderedLists(ListNode first, ListNode second)
     }
 
     return result.next;
-}
-
-//Definition for singly-linked list.
-class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        val = val;
-        next = next;
-    }
 }
